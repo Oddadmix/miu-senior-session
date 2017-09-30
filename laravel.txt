@@ -1,1 +1,17 @@
 ### Laravel Example ###
+
+To install Laravel
+
+01- Install composer https://getcomposer.org/Composer-Setup.exe Make sure to run the exe as adminstarator
+02- Laravel installation documenation https://laravel.com/docs/5.5#installing-laravel
+03- open cmd, terminal and run  -> composer global require "laravel/installer"
+04- composer create-project --prefer-dist laravel/laravel miu-session
+05- create a database in mysql
+06- make sure to update .env with the database username, password, database and port.
+07- import the database.sql into the created database.
+08- Create the two models Movie.php and Genre.php
+09- Declare the relationship using the laravel belongs and hasMany
+10- Create controller for genre and Movie
+11- create route to map the controller method to the endpoint
+12- Make sure to disable the CRF token in VerifyCsrfToken
+13- Make sure to fill in the fillable in the model for mass assignment
